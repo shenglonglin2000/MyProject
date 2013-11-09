@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\PokerCardGameClient\ClientComThread.cpp" />
+    <ClCompile Include="src\PokerCardGameClient\TcpClientActor.cpp" />
+    <ClCompile Include="src\PokerCardGameServer\RecvDataWorker.cpp" />
+    <ClCompile Include="src\PokerCardGameServer\ServerComThread.cpp" />
+    <ClCompile Include="src\PokerCardGameServer\TcpConnectionActor.cpp" />
+    <ClCompile Include="src\PokerCardGameServer\TCPServerConnectionMonitor.cpp" />
+    <ClCompile Include="src\PokerCardGameServer\TCPServerRequestMonitor.cpp" />
+    <ClCompile Include="src\PokerCard\AIComputer.cpp" />
+    <ClCompile Include="src\PokerCard\AIElectLord.cpp" />
+    <ClCompile Include="src\PokerCard\CardsHelper.cpp" />
+    <ClCompile Include="src\PokerCard\CommonLogic.cpp" />
+    <ClCompile Include="src\PokerCard\GameMainForm.cpp" />
+    <ClCompile Include="src\PokerCard\GamePlayer.cpp" />
+    <ClCompile Include="src\PokerCard\GamePlayerList.cpp" />
+    <ClCompile Include="src\PokerCard\ObjectOriented.cpp" />
+    <ClCompile Include="src\PokerCard\PokerCard.cpp" />
+    <ClCompile Include="src\PokerCard\PokerCardList.cpp" />
+    <ClCompile Include="src\PokerCard\PokerCardListList.cpp" />
+    <ClCompile Include="src\PokerCard\ThreeCPUPlayGame.cpp" />
+    <ClCompile Include="src\SysCommon\TA_String.cpp" />
+    <ClCompile Include="src\SysCommon\UtilityFun.cpp" />
+    <ClCompile Include="src\SysLog\DebugUtil.cpp" />
+    <ClCompile Include="src\SysLog\Logger.cpp" />
+    <ClCompile Include="src\SysMain\main.cpp" />
+    <ClCompile Include="src\SysSocket\Buffer.cpp" />
+    <ClCompile Include="src\SysSocket\TcpSocket.cpp" />
+    <ClCompile Include="src\SysThread\MySemaphore.cpp" />
+    <ClCompile Include="src\SysThread\MyThreadTest.cpp" />
+    <ClCompile Include="src\SysThread\ReEntrantThreadLockable.cpp" />
+    <ClCompile Include="src\SysThread\Thread.cpp" />
+    <ClCompile Include="src\SysThread\ThreadGuard.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\PokerCardGameClient\ClientComThread.h" />
+    <ClInclude Include="src\PokerCardGameClient\TcpClientActor.h" />
+    <ClInclude Include="src\PokerCardGameServer\RecvDataWorker.h" />
+    <ClInclude Include="src\PokerCardGameServer\ServerComThread.h" />
+    <ClInclude Include="src\PokerCardGameServer\TcpConnectionActor.h" />
+    <ClInclude Include="src\PokerCardGameServer\TCPServerConnectionMonitor.h" />
+    <ClInclude Include="src\PokerCardGameServer\TCPServerRequestMonitor.h" />
+    <ClInclude Include="src\PokerCard\AIComputer.h" />
+    <ClInclude Include="src\PokerCard\AIElectLord.h" />
+    <ClInclude Include="src\PokerCard\CardsHelper.h" />
+    <ClInclude Include="src\PokerCard\CommonLogic.h" />
+    <ClInclude Include="src\PokerCard\GameMainForm.h" />
+    <ClInclude Include="src\PokerCard\GamePlayer.h" />
+    <ClInclude Include="src\PokerCard\GamePlayerList.h" />
+    <ClInclude Include="src\PokerCard\ObjectOriented.h" />
+    <ClInclude Include="src\PokerCard\PokerCard.h" />
+    <ClInclude Include="src\PokerCard\PokerCardCommonDef.h" />
+    <ClInclude Include="src\PokerCard\PokerCardList.h" />
+    <ClInclude Include="src\PokerCard\PokerCardListList.h" />
+    <ClInclude Include="src\PokerCard\ThreeCPUPlayGame.h" />
+    <ClInclude Include="src\SysCommon\CommonData.h" />
+    <ClInclude Include="src\SysCommon\CommonDef.h" />
+    <ClInclude Include="src\SysCommon\TA_String.h" />
+    <ClInclude Include="src\SysCommon\UtilityFun.h" />
+    <ClInclude Include="src\SysLog\DebugUtil.h" />
+    <ClInclude Include="src\SysLog\Logger.h" />
+    <ClInclude Include="src\SysSocket\Buffer.h" />
+    <ClInclude Include="src\SysSocket\ISocket.h" />
+    <ClInclude Include="src\SysSocket\SocketSet.h" />
+    <ClInclude Include="src\SysSocket\SocketSetP.h" />
+    <ClInclude Include="src\SysSocket\TcpServerSocket.h" />
+    <ClInclude Include="src\SysSocket\TcpSocket.h" />
+    <ClInclude Include="src\SysThread\IThreadLockable.h" />
+    <ClInclude Include="src\SysThread\MySemaphore.h" />
+    <ClInclude Include="src\SysThread\MyThreadTest.h" />
+    <ClInclude Include="src\SysThread\ReEntrantThreadLockable.h" />
+    <ClInclude Include="src\SysThread\Thread.h" />
+    <ClInclude Include="src\SysThread\ThreadGuard.h" />
+    <ClInclude Include="src\SysThread\ThreadLockableHolderVerifier.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5BA41DB3-D640-4ACD-9788-70062F23FF52}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TwoToOnePokerGameNetPro</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./src/SysMain;./src/SysCommon;./src/SysLog;./src/SysThread;./src/SysSocket;./src/PokerCardGameServer;./src/PokerCardGameClient;./src/PokerCard;C:\LSL\SVNWork\MyLearn\MyProject\TwoToOnePokerGameNetPro\LSLPublicLib\include\pthreads;C:\LSL\SVNWork\MyLearn\MyProject\TwoToOnePokerGameNetPro\LSLPublicLib\include\Visual_Leak_Detector;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996;4819</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\LSL\SVNWork\MyLearn\MyProject\TwoToOnePokerGameNetPro\LSLPublicLib\lib\x86</AdditionalLibraryDirectories>
+      <AdditionalDependencies>pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

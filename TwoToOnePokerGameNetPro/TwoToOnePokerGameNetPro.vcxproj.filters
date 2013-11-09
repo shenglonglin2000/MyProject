@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\PokerCard\AIComputer.cpp">
+      <Filter>PokerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCard\AIElectLord.cpp">
+      <Filter>PokerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SysSocket\Buffer.cpp">
+      <Filter>SysSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCard\CardsHelper.cpp">
+      <Filter>PokerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCard\CommonLogic.cpp">
+      <Filter>PokerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SysLog\DebugUtil.cpp">
+      <Filter>SysLog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCard\GamePlayer.cpp">
+      <Filter>PokerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCard\GamePlayerList.cpp">
+      <Filter>PokerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCard\GameMainForm.cpp">
+      <Filter>PokerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SysLog\Logger.cpp">
+      <Filter>SysLog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SysMain\main.cpp">
+      <Filter>SysMain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SysThread\MySemaphore.cpp">
+      <Filter>SysThread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SysThread\MyThreadTest.cpp">
+      <Filter>SysThread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCard\ObjectOriented.cpp">
+      <Filter>PokerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCard\PokerCard.cpp">
+      <Filter>PokerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCard\PokerCardList.cpp">
+      <Filter>PokerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCard\PokerCardListList.cpp">
+      <Filter>PokerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCardGameServer\RecvDataWorker.cpp">
+      <Filter>PokerCardGameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SysThread\ReEntrantThreadLockable.cpp">
+      <Filter>SysThread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SysCommon\TA_String.cpp">
+      <Filter>SysLog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCardGameServer\TcpConnectionActor.cpp">
+      <Filter>PokerCardGameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCardGameServer\TCPServerConnectionMonitor.cpp">
+      <Filter>PokerCardGameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCardGameServer\TCPServerRequestMonitor.cpp">
+      <Filter>PokerCardGameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SysSocket\TcpSocket.cpp">
+      <Filter>SysSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SysThread\Thread.cpp">
+      <Filter>SysThread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SysThread\ThreadGuard.cpp">
+      <Filter>SysThread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCard\ThreeCPUPlayGame.cpp">
+      <Filter>PokerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SysCommon\UtilityFun.cpp">
+      <Filter>SysCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCardGameClient\TcpClientActor.cpp">
+      <Filter>PokerCardGameClient</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCardGameServer\ServerComThread.cpp">
+      <Filter>PokerCardGameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PokerCardGameClient\ClientComThread.cpp">
+      <Filter>PokerCardGameClient</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\PokerCard\AIElectLord.h">
+      <Filter>PokerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCard\AIComputer.h">
+      <Filter>PokerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysSocket\Buffer.h">
+      <Filter>SysSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCard\CardsHelper.h">
+      <Filter>PokerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysCommon\CommonData.h">
+      <Filter>SysCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysCommon\CommonDef.h">
+      <Filter>SysCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCard\CommonLogic.h">
+      <Filter>PokerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysLog\DebugUtil.h">
+      <Filter>SysLog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCard\GameMainForm.h">
+      <Filter>PokerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCard\GamePlayerList.h">
+      <Filter>PokerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCard\GamePlayer.h">
+      <Filter>PokerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysSocket\ISocket.h">
+      <Filter>SysSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysThread\IThreadLockable.h">
+      <Filter>SysThread</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysLog\Logger.h">
+      <Filter>SysLog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysThread\MyThreadTest.h">
+      <Filter>SysThread</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysThread\MySemaphore.h">
+      <Filter>SysThread</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCard\ObjectOriented.h">
+      <Filter>PokerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCard\PokerCardListList.h">
+      <Filter>PokerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCard\PokerCard.h">
+      <Filter>PokerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCard\PokerCardCommonDef.h">
+      <Filter>PokerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCard\PokerCardList.h">
+      <Filter>PokerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCardGameServer\RecvDataWorker.h">
+      <Filter>PokerCardGameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysThread\ReEntrantThreadLockable.h">
+      <Filter>SysThread</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysCommon\TA_String.h">
+      <Filter>SysLog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysSocket\SocketSet.h">
+      <Filter>SysSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysSocket\SocketSetP.h">
+      <Filter>SysSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCardGameServer\TCPServerRequestMonitor.h">
+      <Filter>PokerCardGameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCardGameServer\TcpConnectionActor.h">
+      <Filter>PokerCardGameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCardGameServer\TCPServerConnectionMonitor.h">
+      <Filter>PokerCardGameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysSocket\TcpServerSocket.h">
+      <Filter>SysSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysSocket\TcpSocket.h">
+      <Filter>SysSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysThread\Thread.h">
+      <Filter>SysThread</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysThread\ThreadGuard.h">
+      <Filter>SysThread</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysThread\ThreadLockableHolderVerifier.h">
+      <Filter>SysThread</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCard\ThreeCPUPlayGame.h">
+      <Filter>PokerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SysCommon\UtilityFun.h">
+      <Filter>SysCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCardGameClient\TcpClientActor.h">
+      <Filter>PokerCardGameClient</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCardGameServer\ServerComThread.h">
+      <Filter>PokerCardGameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PokerCardGameClient\ClientComThread.h">
+      <Filter>PokerCardGameClient</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PokerCard">
+      <UniqueIdentifier>{fdd81151-74e5-4bc9-ae9e-d3a4a36b736e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PokerCardGameClient">
+      <UniqueIdentifier>{2e2e332f-2976-44e7-bf20-29f76bcd645b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PokerCardGameServer">
+      <UniqueIdentifier>{344d6efb-7333-43b4-b3b5-89985c4c9636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SysCommon">
+      <UniqueIdentifier>{f6dee759-9cbe-42a7-b566-956ec3c487dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SysLog">
+      <UniqueIdentifier>{74d948f0-b725-43b2-877c-c4a663dd2d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SysMain">
+      <UniqueIdentifier>{6fa7309b-1e86-481c-8647-92f1f1253c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SysSocket">
+      <UniqueIdentifier>{31ac8846-cff0-4601-adb4-ada561a4b494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SysThread">
+      <UniqueIdentifier>{8cf94d0b-5f7e-4fcc-9dc9-97e622bed521}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
