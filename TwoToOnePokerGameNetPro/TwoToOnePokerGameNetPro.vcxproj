@@ -95,12 +95,14 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>MultiByte</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v110</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -125,14 +127,15 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>./src/SysMain;./src/SysCommon;./src/SysLog;./src/SysThread;./src/SysSocket;./src/PokerCardGameServer;./src/PokerCardGameClient;./src/PokerCard;C:\LSL\SVNWork\MyLearn\MyProject\TwoToOnePokerGameNetPro\LSLPublicLib\include\pthreads;C:\LSL\SVNWork\MyLearn\MyProject\TwoToOnePokerGameNetPro\LSLPublicLib\include\Visual_Leak_Detector;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./src/SysMain;./src/SysCommon;./src/SysLog;./src/SysThread;./src/SysSocket;./src/PokerCardGameServer;./src/PokerCardGameClient;./src/PokerCard;D:\SVNHome\MyProject\TwoToOnePokerGameNetPro\LSLPublicLib\include\pthreads;D:\SVNHome\MyProject\TwoToOnePokerGameNetPro\LSLPublicLib\include\Visual_Leak_Detector;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996;4819</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\LSL\SVNWork\MyLearn\MyProject\TwoToOnePokerGameNetPro\LSLPublicLib\lib\x86</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\SVNHome\MyProject\TwoToOnePokerGameNetPro\LSLPublicLib\lib\x86</AdditionalLibraryDirectories>
       <AdditionalDependencies>pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>./bin/TwoToOnePokerGameNetPro_d.exe</OutputFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
